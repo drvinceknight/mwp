@@ -1,0 +1,29 @@
+\documentclass[tikz,convert={outfile=\jobname.png}]{standalone}
+\begin{document}
+    \begin{tikzpicture}
+        \draw (0, 0) rectangle  (5, 3);
+
+        \draw [<->] (0.5, 3.25) --  (4.5, 3.25);
+        \node at (2.5, 3.5) {$L-2x$};
+
+        \draw [<->] (-.25, 0.5) --  (-0.25, 2.5);
+        \node at (-.75, 1.5) {$l-2x$};
+
+        \draw [dashed] (0, 0) rectangle (.5, .5);
+        \draw [dashed] (0, 3) rectangle (.5, 2.5);
+        \draw [dashed] (5, 3) rectangle (4.5, 2.5);
+        \draw [dashed] (5, 0) rectangle (4.5, .5);
+
+        \node at (.75, .25) {$x$};
+        \node at (.25, .75) {$x$};
+
+        \node at (.75, 2.75) {$x$};
+        \node at (.25, 2.25) {$x$};
+
+        \node at (4.25, .25) {$x$};
+        \node at (4.75, .75) {$x$};
+
+        \node at (4.25, 2.75) {$x$};
+        \node at (4.75, 2.25) {$x$};
+    \end{tikzpicture}
+\end{document}

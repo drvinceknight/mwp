@@ -1,0 +1,12 @@
+\documentclass[tikz,convert={outfile=\jobname.png}]{standalone}
+\begin{document}
+    \begin{tikzpicture}
+        \draw (0, 0) rectangle  (5, 3);
+
+        \draw [<->] (0, 3.25) --  (5, 3.25);
+        \node at (2.5, 3.5) {$L$};
+
+        \draw [<->] (-.25, 0) --  (-0.25, 3);
+        \node at (-.75, 1.5) {$l$};
+    \end{tikzpicture}
+\end{document}
