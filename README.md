@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/drvinceknight/mwp.svg?branch=master)](https://travis-ci.org/drvinceknight/mwp)
+
 # Mathematics with Python workshop
 
 A short workshop describing how Mathematics can be studied using Python.
